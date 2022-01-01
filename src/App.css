@@ -48,3 +48,20 @@
 .__btn-header:hover {
     box-shadow: none;
 }
+
+.__main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 50px 0px;
+    gap: 30px;
+}
+
+.__main .__main-content {
+    width: 40%;
+}
+
+.__main .__courses {
+    width: 60%;
+    box-shadow: 0px 0px 16px rgba(204, 204, 204, 0.623);
+}
