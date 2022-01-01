@@ -58,10 +58,127 @@
 }
 
 .__main .__main-content {
-    width: 40%;
+    width: 35%;
+}
+
+.__main .__main-content h3 {
+    font-size: 28px;
+    position: relative;
+    padding-bottom: 25px;
+    color: rgba(0, 113, 206, 0.651);
+}
+
+.__main .__main-content h6 {
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+}
+
+.__main .__main-content p {
+    font-size: 14px;
+    color: rgb(114, 114, 114);
+    line-height: 1.5rem;
+}
+
+.__main .__main-content h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgb(0, 178, 209), rgb(0, 255, 200));
+    width: 50px;
+    height: 4px;
 }
 
 .__main .__courses {
-    width: 60%;
+    width: 65%;
     box-shadow: 0px 0px 16px rgba(204, 204, 204, 0.623);
+}
+
+.__btn-course {
+    background-color: rgb(1, 109, 172);
+    color: #eeeeee;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.281);
+    transition: box-shadow .5s;
+    border: 2px solid transparent;
+    padding-top: 10px;
+    transition: background-color .3s;
+}
+
+.__btn-course:hover {
+    border: 2px solid rgb(0, 150, 236);
+    background-color: transparent;
+    color:rgb(1, 109, 172);
+}
+
+.__easy {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    background: linear-gradient(rgb(1, 81, 172),rgb(10, 137, 255));   
+    color: #eeeeee;
+    margin: 20px 0px;
+}
+
+.__easy .__easy-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.__easy .__easy-inner .__image {
+    flex: 1;
+}
+
+.__easy .__easy-inner .__image img {
+    float: right;
+}
+
+.__easy .__easy-inner .__content {
+    flex: 1;
+    padding-right: 200px;
+}
+.__easy .__easy-inner .__content h2, 
+.__easy .__easy-inner .__content p, 
+.__easy .__easy-inner .__content a {
+    float: left;
+}
+
+.__easy .__easy-inner .__content h2 {
+    font-size: 32px;
+    margin-bottom: 1px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.__easy .__easy-inner .__content h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgb(0, 178, 209), rgb(0, 255, 200));
+    width: 30px;
+    height: 2px;
+}
+
+.__easy .__easy-inner .__content p {
+    line-height: 1.3rem;
+    color: rgb(195, 234, 255);
+    font-size: 14px;
+}
+
+.__btn-easy {
+    background-color: rgb(0, 173, 150);
+    color: #eeeeee;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.281);
+    transition: box-shadow .5s;
+    font-size: 14px;
+    transition: box-shadow .4s;
+}
+
+.__btn-easy:hover {
+    box-shadow: none;
 }
