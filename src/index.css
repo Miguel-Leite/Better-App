@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #333333;
 }
 
 ul,li {
@@ -21,4 +22,11 @@ a {
   margin: 10px 0px;
   text-decoration: none;
   border-radius: 3px;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding: 10px 0px;
 }

@@ -1,0 +1,37 @@
+.__course-item {
+    width: auto;
+    padding: 10px;
+    border: rgba(236, 236, 236, 0.473) solid 1px;
+    display: flex;
+}
+
+.__course-item .__icon {
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(109, 161, 190);
+}
+
+.__course-item .__icon i {
+    padding: 10px;
+    background-color: rgb(233, 247, 255);
+    border-radius: 50%;
+}
+
+.__course-item .__content h4 {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+}
+
+.__course-item .__content p {
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+}
+
+.__grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
