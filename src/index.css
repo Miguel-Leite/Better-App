@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #333333;
+  background-color: #fefefe;
 }
 
 ul,li {
@@ -29,4 +30,12 @@ a {
   margin: auto;
   width: 80%;
   padding: 10px 0px;
+}
+.__grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.__shadow {
+  box-shadow: 0px 5px 15px rgba(155, 155, 155, 0.651);
 }

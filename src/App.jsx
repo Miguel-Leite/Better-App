@@ -4,7 +4,7 @@ import svgHeader from './svg-header.svg'
 import Book from './Book.svg'
 import { Menu } from './components/Navbars';
 import { NavLink } from 'react-router-dom';
-import { CourseItem } from './components/CourseItem';
+import { Card } from './components/Cards';
 
 function App() {
   return (
@@ -45,7 +45,39 @@ function App() {
               <NavLink to='/' className='__btn __btn-course'> View All Courses </NavLink>
             </div>
             <div className='__courses'>
-              <CourseItem />
+              <div className='__grid'>
+                <Card title='Web Development' content='Excepturi commodi omnis 
+                in ea fugit consectetur reiciendis hic nam sapiente, 
+                numquam consequatur libero qui obcaecati ipsa.' />
+
+                <Card title='Python' content='Excepturi commodi omnis 
+                in ea fugit consectetur reiciendis hic nam sapiente, 
+                numquam consequatur libero qui obcaecati ipsa.' />
+
+                <Card title='React js' content='Excepturi commodi omnis 
+                in ea fugit consectetur reiciendis hic nam sapiente, 
+                numquam consequatur libero qui obcaecati ipsa.' />
+
+                <Card title='Javascript' content='Excepturi commodi omnis 
+                in ea fugit consectetur reiciendis hic nam sapiente, 
+                numquam consequatur libero qui obcaecati ipsa.' />
+
+                <Card title='PHP' content='Excepturi commodi omnis 
+                in ea fugit consectetur reiciendis hic nam sapiente, 
+                numquam consequatur libero qui obcaecati ipsa.' />
+
+                <Card title='Laravel' content='Excepturi commodi omnis 
+                in ea fugit consectetur reiciendis hic nam sapiente, 
+                numquam consequatur libero qui obcaecati ipsa.' />
+
+                <Card title='Django' content='Excepturi commodi omnis 
+                in ea fugit consectetur reiciendis hic nam sapiente, 
+                numquam consequatur libero qui obcaecati ipsa.' />
+
+                <Card title='Docker' content='Excepturi commodi omnis 
+                in ea fugit consectetur reiciendis hic nam sapiente, 
+                numquam consequatur libero qui obcaecati ipsa.' />
+              </div>
             </div>
         </main>
       </div>
@@ -69,6 +101,27 @@ function App() {
             </div>
           </div>
         </section>
+        <div className='__container'>
+          <div className='__services'>
+              <Card title='Free Courses' classTitle='__title-service' shadow={true} content='in ea fugit consectetur reiciendis dolor sit, amet 
+                  consectetur adipisicing elit. Excepturi commodi omnis 
+                  in ea fugit consectetu obcaecati ipsa. Eligendi 
+                  blanditiis sapiente pariatur? Earum!r' />
+
+              <Card title='Premium Courses' classTitle='__title-service' shadow={true} content='in ea fugit consectetur reiciendis dolor sit, amet 
+                  consectetur adipisicing elit. Excepturi commodi omnis 
+                  in ea fugit consectetur obcaecati ipsa. Eligendi 
+                  blanditiis sapiente pariatur? Earum!' />
+          </div>
+
+          <div className='__option'>
+            <div className='__question'>
+              <h2></h2>
+            </div>
+          </div>
+
+        </div>
+        
     </div>
   )
 }
